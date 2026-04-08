@@ -24,6 +24,9 @@ export default function App() {
           playsInline
         />
 
+        {/* Black overlay: top to center, 40% opacity */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-b from-black/40 to-transparent" style={{ height: '50%' }} />
+
         {/* Navbar */}
         <nav className="relative z-20 px-6 md:px-16 py-6 flex items-center justify-between">
           <img src="/av-logo2-ai.png" alt="Animoca Ventures" className="h-20" />

@@ -6,7 +6,7 @@ import BeliefSection from './components/BeliefSection'
 import Footer from './components/Footer'
 
 const VIDEO_URL =
-  '/openart-video_3015aa7d_1775640807001.mp4'
+  '/openart-video_832ac92d_1775641660390.mp4'
 
 export default function App() {
   return (
